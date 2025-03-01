@@ -4,6 +4,7 @@ import Article from './pages/Article';
 import ArticlesList from './pages/ArticlesList';
 import Home from './pages/Home';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import NotFound from './pages/NotFound';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
          <Route path='/about' element={ <About/>}/>
          <Route path='/articles-list' element={ <ArticlesList/> }/>
          <Route path='/article/:name' element={ <Article/> }/>
+         <Route path='*' element={<NotFound/>}/>
      </Routes>
     </div>
     </Router>

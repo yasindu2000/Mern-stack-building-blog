@@ -8,7 +8,7 @@ import Articles from '../components/Articles';
 function ArticlesList() {
   return (
     <div >
-        <h1 className='sm:text-4xl text-2xl font-bold my-6 text-gray-900'>
+        <h1 className='sm:text-4xl text-2xl  my-6 text-gray-900 text-center font-semibold font-serif '>
             Articles
         </h1>
         <div className='container py-4 mx-auto'>

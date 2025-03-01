@@ -4,20 +4,20 @@ function About() {
   return (
     <div className='mb-20'>
     
-      <h1 className='sm:text-4xl  text-2xl font-bold my-6 text-gray-900 '>About</h1>
-      <p className='mx-auto leading-relaxed text-base mb-4'>
+      <h1 className='sm:text-4xl  text-2xl my-6 text-gray-900 text-center font-semibold font-serif'>About</h1>
+      <p className='mx-auto leading-relaxed text-base mb-4 font-serif text-gray-700'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. 
         Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; 
         Duis ut purus a libero bibendum aliquet. Integer nec sapien et metus varius varius. 
         Curabitur nec justo ac lorem facilisis tincidunt.</p>
 
-        <p className='mx-auto leading-relaxed text-base mb-4'>
+        <p className='mx-auto leading-relaxed text-base mb-4 font-serif text-gray-700'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. 
         Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; 
         Duis ut purus a libero bibendum aliquet. Integer nec sapien et metus varius varius. 
         Curabitur nec justo ac lorem facilisis tincidunt.</p>
 
-         <p className='mx-auto leading-relaxed text-base mb-4'>
+         <p className='mx-auto leading-relaxed text-base mb-4 font-serif text-gray-700'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. 
             Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere 
             cubilia curae; Duis ut purus a libero bibendum aliquet. Integer nec sapien 
