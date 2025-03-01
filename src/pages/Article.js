@@ -5,8 +5,13 @@ import articleContent from './article-content';
 function Article() {
 
     const { name } = useParams();
-    const article = articleContent.find((article) =>
-        article.name === name)
+    const article = articleContent.find((article) =>article.name === name);
+
+    if(!article){
+        return <h1>Article does not exists</h1>
+
+        
+    }
 
 
   return (
